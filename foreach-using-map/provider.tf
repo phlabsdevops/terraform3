@@ -10,7 +10,7 @@ terraform {
     bucket = "phlabs-remote-state"
     key    = "foreach"
     region = "us-east-1"
-    dynamodb_table = "phlabss-locking"
+    dynamodb_table = "phlabs-locking"
   }
 }
 
